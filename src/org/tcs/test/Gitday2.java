@@ -17,5 +17,6 @@ public class Gitday2 {
 	public static void dragNDrop(WebElement e, WebElement t) {
 		Actions ac = new Actions(driver);
 		ac.dragAndDrop(e, t).perform();
+		System.out.println("changed one min ago");
 }
 	}
