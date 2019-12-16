@@ -18,5 +18,6 @@ public class Gitday2 {
 		Actions ac = new Actions(driver);
 		ac.dragAndDrop(e, t).perform();
 		System.out.println("changed one min ago");
+		System.out.println("did");
 }
 	}
